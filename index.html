@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Destinations</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Travel Destinations</h1>
+    <p>Discover the world one destination at a time ✈️</p>
+  </header>
+
+  <section class="accordion">
+
+    <!-- Paris -->
+    <div class="accordion-item">
+      <div class="accordion-header">Paris, France <span>+</span></div>
+      <div class="accordion-content">
+        <p>Paris, the City of Light, is famed for its romantic charm, art, and architecture. Visit the Eiffel Tower, Louvre, and enjoy a café by the Seine.</p>
+        <div>
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Eiffel Tower" data-caption="Eiffel Tower, Paris">
+          <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade" alt="Louvre Museum" data-caption="Louvre Museum, Paris">
+        </div>
+      </div>
+    </div>
+
+    <!-- Tokyo -->
+    <div class="accordion-item">
+      <div class="accordion-header">Tokyo, Japan <span>+</span></div>
+      <div class="accordion-content">
+        <p>Tokyo is a bustling city blending tradition and technology. Visit Shibuya Crossing, temples, and enjoy sushi in the heart of Japan.</p>
+        <div>
+          <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Tokyo Skyline" data-caption="Tokyo Skyline">
+          <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93" alt="Senso-ji Temple" data-caption="Senso-ji Temple, Tokyo">
+        </div>
+      </div>
+    </div>
+
+    <!-- Cape Town -->
+    <div class="accordion-item">
+      <div class="accordion-header">Cape Town, South Africa <span>+</span></div>
+      <div class="accordion-content">
+        <p>Cape Town offers stunning landscapes and rich culture. Explore Table Mountain, Camps Bay, and Robben Island for unforgettable views.</p>
+        <div>
+          <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Table Mountain" data-caption="Table Mountain, Cape Town">
+          <img src="https://images.unsplash.com/photo-1694138313706-8894c686c068?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074" alt="Camps Bay" data-caption="Camps Bay Beach, Cape Town">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="close">&times;</span>
+    <img src="" alt="Expanded view">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
